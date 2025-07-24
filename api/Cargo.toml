@@ -23,6 +23,8 @@ async-trait = "0.1.74"
 axum = "0.7.5"
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter", "json"] }
+libsql = "0.9.19"
+dotenvy = "0.15.7"
 
 [[bin]]
 name = "stimulus_api-cli"
